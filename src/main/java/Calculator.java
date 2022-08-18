@@ -67,8 +67,7 @@ class Calculator {
                 computation = firstNumber * secondNumber;
                 break;
             case '/':
-                computation = firstNumber / secondNumber;
-                System.out.println("division without remainder");
+                computation = (double)firstNumber / secondNumber;
                 break;
             default:
                 System.out.print("Error. ");
